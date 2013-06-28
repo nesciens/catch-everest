@@ -34,10 +34,7 @@
 		</header><!-- .entry-header -->
 
 		<?php 
-		// Getting data from Theme Options
-		global $catcheverest_options_settings;
-		$options = $catcheverest_options_settings;
-		$current_content_layout = $options['content_layout'];
+		$current_content_layout = catcheverest_get_content_layout ();
 		$catcheverest_excerpt = get_the_excerpt();
 		
 		if ( is_search() || ( !is_single() && $current_content_layout=='excerpt' && !empty( $catcheverest_excerpt ) ) ) : ?>

@@ -269,18 +269,9 @@ function catcheverest_rss_redirect() {
 add_action('template_redirect', 'catcheverest_rss_redirect');
 
 
-/**
- * Adds custom classes to the array of body classes.
- *
- * @since Catch Everest 1.0
- */
-function catcheverest_body_classes( $classes ) {
+if ( ! function_exists( 'catcheverest_get_sidebar_layout' ) ) :
+function catcheverest_get_sidebar_layout() {
 	global $post;
-	
-	// Adds a class of group-blog to blogs with more than 1 published author
-	if ( is_multi_author() ) {
-		$classes[] = 'group-blog';
-	}
 	
 	if( $post) {
  		if ( is_attachment() ) { 
@@ -301,22 +292,42 @@ function catcheverest_body_classes( $classes ) {
 		
 	$themeoption_layout = $options['sidebar_layout'];
 	
-	if( ( $layout == 'no-sidebar' || ( $layout=='default' && $themeoption_layout == 'no-sidebar') ) ) {
-		$classes[] = 'no-sidebar';
+	if ($layout == 'default' && ($themeoption_layout == 'left-sidebar'
+	                             || $themeoption_layout == 'right-sidebar'
+	                             || $themeoption_layout == 'no-sidebar') ) {
+		$layout = $themeoption_layout;
 	}
-	elseif( ( $layout == 'left-sidebar' || ( $layout=='default' && $themeoption_layout == 'left-sidebar') ) ){
-		$classes[] = 'left-sidebar';
-	}
-	elseif( ( $layout == 'right-sidebar' || ( $layout=='default' && $themeoption_layout == 'right-sidebar') ) ){
-		$classes[] = 'right-sidebar';
-	}	
+
+	return $layout;
+}
+endif;
+
+if ( ! function_exists( 'catcheverest_get_content_layout' ) ) :
+function catcheverest_get_content_layout() {
+	global $catcheverest_options_settings;
+
+	return $catcheverest_options_settings['content_layout'];
+}
+endif;
+
+/**
+ * Adds custom classes to the array of body classes.
+ *
+ * @since Catch Everest 1.0
+ */
+function catcheverest_body_classes( $classes ) {
+	global $post;
 	
-	$current_content_layout = $options['content_layout'];
-	if( $current_content_layout == 'full' ) {
-		$classes[] = 'content-full';
+	// Adds a class of group-blog to blogs with more than 1 published author
+	if ( is_multi_author() ) {
+		$classes[] = 'group-blog';
 	}
-	elseif ( $current_content_layout == 'excerpt' ) {
-		$classes[] = 'content-excerpt';
+
+	$classes[] = catcheverest_get_sidebar_layout();
+
+	$current_content_layout = catcheverest_get_content_layout();
+	if( $current_content_layout == 'full' || $current_content_layout == 'excerpt') {
+		$classes[] = 'content-' . $current_content_layout;
 	}
 	
 	return $classes;

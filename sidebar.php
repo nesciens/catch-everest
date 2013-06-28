@@ -15,19 +15,9 @@
 do_action( 'catcheverest_before_secondary' ); ?>
 
 <?php 
-	global $post;
-	if( $post )
-		$layout = get_post_meta( $post->ID,'catcheverest-sidebarlayout', true ); 
-		
-	if( empty( $layout ) || ( !is_page() && !is_single() ) )
-		$layout='default';
-		
-	// Getting data from Theme Options
-	global $catcheverest_options_settings;
-	$options = $catcheverest_options_settings;
-	$themeoption_layout = $options['sidebar_layout'];
-	
-	if ( ( $layout == 'left-sidebar' || $layout == 'right-sidebar' || ( $layout=='default' && $themeoption_layout == 'left-sidebar') || ( $layout=='default' && $themeoption_layout == 'right-sidebar') ) ) { ?>
+	$layout = catcheverest_get_sidebar_layout();
+
+	if ( $layout == 'left-sidebar' || $layout == 'right-sidebar' ) { ?>
 
 		<div id="secondary" class="widget-area" role="complementary">
 			<?php 
