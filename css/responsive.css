@@ -4,7 +4,6 @@
 @media screen and (min-width: 1190px) {
 .site {
 	margin: 40px auto;
-	margin: 4rem auto;
     width: 1140px;
 }
 #primary {
@@ -19,11 +18,9 @@ blockquote,
 .comments-title, #reply-title,
 #respond {
 	margin-bottom: 50px;
-	margin-bottom: 5rem;
 }
 #homepage-message {
 	margin-top: 50px;
-	margin-top: 5rem;
 }
 article.sticky .featured-post,
 .page-header,
@@ -34,20 +31,17 @@ p,
 .widget.widget_catcheverest_social_widget,
 #content .searchform {
 	margin-bottom: 40px;
-	margin-bottom: 4rem;
 }
 #header-right .widget,
 .entry-header,
 article.format-aside .entry-title,
 .comments-area article header {
 	margin-bottom: 30px;
-	margin-bottom: 3rem;	
 }
 .page .entry-header,
 .widget-title,
 #header-right .widget.widget_catcheverest_social_widget, {
 	margin-bottom: 20px;
-	margin-bottom: 2rem;
 }
 #featured-post .entry-header {
 	margin-bottom: 0;
@@ -61,17 +55,14 @@ article.format-aside .entry-title,
 #supplementary,
 #main {
 	padding-top: 50px;
-	padding-top: 5rem;
 }
 #hgroup-wrap,
 .hentry,
 .comments-area article { 
 	padding-bottom: 50px;
-	padding-bottom: 5rem;
 }
 #site-generator .site-info {
 	padding: 40px 0;
-	padding: 4rem 0;
 }
 
 /* Font Sizes */
@@ -105,7 +96,6 @@ textarea {
 @media screen and (max-width: 1060px) {
 .site {
 	margin: 20px auto;
-	margin: 2rem auto;
     width: 900px;	
 }
 #primary {
@@ -120,11 +110,9 @@ blockquote,
 .comments-title, #reply-title,
 #respond {
 	margin-bottom: 30px;
-	margin-bottom: 3rem;
 }
 #homepage-message {
 	margin-top: 30px;
-	margin-top: 3rem;
 }
 article.sticky .featured-post,
 .page-header,
@@ -135,20 +123,17 @@ p,
 .widget.widget_catcheverest_social_widget,
 #content .searchform {
 	margin-bottom: 20px;
-	margin-bottom: 2rem;
 }
 #header-right .widget,
 .entry-header,
 article.format-aside .entry-title,
 .comments-area article header {
 	margin-bottom: 20px;
-	margin-bottom: 2rem;	
 }
 .page .entry-header,
 .widget-title,
 #header-right .widget.widget_catcheverest_social_widget {
 	margin-bottom: 10px;
-	margin-bottom: 1rem;
 }
 .container {
 	padding: 0 30px;
@@ -159,22 +144,18 @@ article.format-aside .entry-title,
 #supplementary,
 #main {
 	padding-top: 30px;
-	padding-top: 3rem;
 }
 #hgroup-wrap,
 .hentry,
 .comments-area article { 
 	padding-bottom: 30px;
-	padding-bottom: 3rem;
 }
 #site-generator .site-info {
 	padding: 20px 0;
-	padding: 2rem 0;
 }
 #header-menu ul.menu a, 
 #colophon #access-footer ul.menu a {
 	padding: 0 15px;
-	padding: 0 1.5rem;
 }
 .entry-header .entry-title {
     padding-bottom: 0;
@@ -239,7 +220,6 @@ textarea {
 }
 #header-menu ul.menu a, #colophon #access-footer ul.menu a {
 	padding: 0 10px;
-    padding: 0 1rem;
 }
 
 /* Font Sizes */
@@ -269,7 +249,6 @@ and (orientation : portrait) {
 /* Pad Portrait */	
 .site {
 	margin: 5px auto;
-	margin: 0.5rem auto;
     width: 760px;
 }
 }
@@ -303,12 +282,10 @@ and (orientation : portrait) {
 #main-slider .entry-title a {
 	background-color: transparent;
 	padding: 10px 25px 0;
-    padding: 1rem 2.5rem 0;
 }
 #main-slider .entry-content {
 	background-color: transparent;
 	padding: 0 25px 25px;
-    padding: 0 2.5rem 2.5rem;	
 }
 #slider-nav a {
 	font-size: 18px;
@@ -369,7 +346,6 @@ and (orientation : portrait) {
 /* iPhone Portrait */	
 .site {
 	margin: 10px auto;
-	margin: 1rem auto;
 	width: 300px;
 }		
 .container {
@@ -379,7 +355,6 @@ and (orientation : portrait) {
 .hentry,
 .comments-area article { 
 	padding-bottom: 20px;
-	padding-bottom: 2rem;
 }
 #site-logo,
 #hgroup,
@@ -387,11 +362,9 @@ and (orientation : portrait) {
 #supplementary,
 #main {
 	padding-top: 20px;
-	padding-top: 2rem;
 }
 #homepage-message {
 	margin-top: 20px;
-	margin-top: 2rem;
 }
 
 /* Font Sizes */
