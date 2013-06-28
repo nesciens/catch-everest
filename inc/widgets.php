@@ -1,4 +1,20 @@
 <?php
+
+if ( ! function_exists( 'catcheverest_register_sidebar' ) ) :
+function catcheverest_register_sidebar ($args) {
+	$defaults = array(
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget' => '</aside>',
+		'before_title' => '<h1 class="widget-title">',
+		'after_title' => '</h1>'
+	);
+
+	$args = wp_parse_args( $args, $defaults);
+
+	return register_sidebar( $args );
+}
+endif;
+
 /**
  * Register widgetized area and update sidebar with default widgets
  *
@@ -9,47 +25,31 @@ function catcheverest_widgets_init() {
 	// Register Custom Widgets
 	register_widget( 'catcheverest_social_widget' );
 	
-	register_sidebar( array(
+	catcheverest_register_sidebar( array(
 		'name' => __( 'Main Sidebar', 'catcheverest' ),
 		'id' => 'sidebar-1',
-		'description'   	=> __( 'Shows the Widgets at the side of Content', 'catchthemes' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h1 class="widget-title">',
-		'after_title' => '</h1>',
+		'description'   	=> __( 'Shows the Widgets at the side of Content', 'catchthemes' )
 	) );
 	
 	//Footer One Sidebar
-	register_sidebar( array(
+	catcheverest_register_sidebar( array(
 		'name' => __( 'Footer Area One', 'catcheverest' ),
 		'id' => 'sidebar-2',
-		'description' => __( 'An optional widget area for your site footer', 'catcheverest' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h1 class="widget-title">',
-		'after_title' => '</h1>',
+		'description' => __( 'An optional widget area for your site footer', 'catcheverest' )
 	) );
 
 	//Footer Two Sidebar
-	register_sidebar( array(
+	catcheverest_register_sidebar( array(
 		'name' => __( 'Footer Area Two', 'catcheverest' ),
 		'id' => 'sidebar-3',
-		'description' => __( 'An optional widget area for your site footer', 'catcheverest' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h1 class="widget-title">',
-		'after_title' => '</h1>',
+		'description' => __( 'An optional widget area for your site footer', 'catcheverest' )
 	) );
 
 	//Footer Three Sidebar
-	register_sidebar( array(
+	catcheverest_register_sidebar( array(
 		'name' => __( 'Footer Area Three', 'catcheverest' ),
 		'id' => 'sidebar-4',
-		'description' => __( 'An optional widget area for your site footer', 'catcheverest' ),
-		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-		'after_widget' => '</aside>',
-		'before_title' => '<h1 class="widget-title">',
-		'after_title' => '</h1>',
+		'description' => __( 'An optional widget area for your site footer', 'catcheverest' )
 	) );		
 	
 }
