@@ -6,7 +6,6 @@
 	margin: 40px auto;
 	margin: 4rem auto;
     width: 1140px;
-	width: 114rem;
 }
 #primary {
 	width: 690px;
@@ -55,7 +54,6 @@ article.format-aside .entry-title,
 }
 .container {
 	padding: 0 50px;
-	padding: 0 5rem;
 }
 #site-logo,
 #hgroup,
@@ -109,7 +107,6 @@ textarea {
 	margin: 20px auto;
 	margin: 2rem auto;
     width: 900px;	
-    width: 90rem;
 }
 #primary {
 	width: 500px;
@@ -155,7 +152,6 @@ article.format-aside .entry-title,
 }
 .container {
 	padding: 0 30px;
-	padding: 0 3rem;
 }
 #site-logo,
 #hgroup,
@@ -236,7 +232,6 @@ textarea {
 /* iPhone Landscape */	
 .site {
     width: 700px;
-	width: 70rem;
 }
 #primary, 
 #secondary {
@@ -276,7 +271,6 @@ and (orientation : portrait) {
 	margin: 5px auto;
 	margin: 0.5rem auto;
     width: 760px;
-	width: 76rem;
 }
 }
 
@@ -284,7 +278,6 @@ and (orientation : portrait) {
 /* Larger Smart Devices */		
 .site {
 	width: 380px;
-    width: 38rem;
 }
 #site-title {
 	font-size: 30px;
@@ -370,7 +363,6 @@ and (orientation : portrait) {
 /* iPhone Landscape */
 .site {
 	width: 450px;
-    width: 45rem;
 }
 }
 @media screen and (max-width: 480px) {
@@ -379,11 +371,9 @@ and (orientation : portrait) {
 	margin: 10px auto;
 	margin: 1rem auto;
 	width: 300px;
-    width: 30rem;
 }		
 .container {
 	padding: 0 20px;
-	padding: 0 2rem;
 }
 #hgroup-wrap,
 .hentry,
