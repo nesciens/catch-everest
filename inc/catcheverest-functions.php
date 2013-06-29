@@ -516,6 +516,7 @@ function catcheverest_post_sliders() {
 		<div id="main-slider" class="container">
         	<section class="featured-slider">';
 				$get_featured_posts = new WP_Query( array(
+					'post_type' => 'any',
 					'posts_per_page' => $options[ 'slider_qty' ],
 					'post__in'		 => $options[ 'featured_slider' ],
 					'orderby' 		 => 'post__in',
