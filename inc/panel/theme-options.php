@@ -106,9 +106,9 @@ function catcheverest_theme_options_do_page() {
             	<div id="theme-social">
                 	<ul>
             			<li class="widget-fb">
-                            <div data-show-faces="false" data-width="80" data-layout="button_count" data-send="false" data-href="<?php echo esc_url(__('http://facebook.com/catchthemes','catcheverest')); ?>" class="fb-like"></div></li>
+                            <div data-show-faces="false" data-width="80" data-layout="button_count" data-send="false" data-href="<?php echo esc_url(__('https://facebook.com/catchthemes/','catcheverest')); ?>" class="fb-like"></div></li>
                      	<li class="widget-tw">
-                            <a data-dnt="true" data-show-screen-name="true" data-show-count="true" class="twitter-follow-button" href="<?php echo esc_url(__('https://twitter.com/catchthemes','catcheverest')); ?>">Follow @catchthemes</a>
+                            <a data-dnt="true" data-show-screen-name="true" data-show-count="true" class="twitter-follow-button" href="<?php echo esc_url(__('https://twitter.com/catchthemes/','catcheverest')); ?>"><?php _e('Follow @catchthemes','catcheverest'); ?></a>
             			</li>
                    	</ul>
                	</div><!-- #theme-social -->
@@ -131,7 +131,7 @@ function catcheverest_theme_options_do_page() {
                     	<li><a class="button donate" href="<?php echo esc_url(__('http://catchthemes.com/donate/','catcheverest')); ?>" title="<?php esc_attr_e('Donate to Catch Everest', 'catcheverest'); ?>" target="_blank"><?php printf(__('Donate Now','catcheverest')); ?></a></li>
                         <li><a class="button" href="<?php echo esc_url(__('http://catchthemes.com/support-forum/forum/catch-everest-public/','catcheverest')); ?>" title="<?php esc_attr_e('Support Forum', 'catcheverest'); ?>" target="_blank"><?php printf(__('Support Forum','catcheverest')); ?></a></li>
                         <li><a class="button" href="<?php echo esc_url(__('http://catchthemes.com/theme-instructions/catch-everest/','catcheverest')); ?>" title="<?php esc_attr_e('Theme Instruction', 'catcheverest'); ?>" target="_blank"><?php printf(__('Theme Instruction','catcheverest')); ?></a></li>
-                        <li><a class="button" href="<?php echo esc_url(__('https://www.facebook.com/catchthemes/','catcheverest')); ?>" title="<?php esc_attr_e('Like Catch Themes on Facebook', 'catcheverest'); ?>" target="_blank"><?php printf(__('Facebook','catcheverest')); ?></a></li>
+                        <li><a class="button" href="<?php echo esc_url(__('https://facebook.com/catchthemes/','catcheverest')); ?>" title="<?php esc_attr_e('Like Catch Themes on Facebook', 'catcheverest'); ?>" target="_blank"><?php printf(__('Facebook','catcheverest')); ?></a></li>
                         <li><a class="button" href="<?php echo esc_url(__('https://twitter.com/catchthemes/','catcheverest')); ?>" title="<?php esc_attr_e('Follow Catch Themes on Twitter', 'catcheverest'); ?>" target="_blank"><?php printf(__('Twitter','catcheverest')); ?></a></li>
                         <li><a class="button" href="<?php echo esc_url(__('http://wordpress.org/support/view/theme-reviews/catch-everest','catcheverest')); ?>" title="<?php esc_attr_e('Rate us 5 Star on WordPress', 'catcheverest'); ?>" target="_blank"><?php printf(__('5 Star Rating','catcheverest')); ?></a></li>
                    	</ul>
@@ -187,13 +187,13 @@ function catcheverest_theme_options_do_page() {
                                         <td><input type="checkbox" id="favicon" name="catcheverest_options[remove_favicon]" value="1" <?php checked( '1', $options['remove_favicon'] ); ?> /> <?php _e('Check to disable', 'catcheverest'); ?></td>
                                     </tr>
                                     <tr>                            
-                                        <th scope="row"><?php _e( 'Fav Icon URL:', 'catcheverest' ); ?></th>
+                                        <th scope="row"><?php _e( 'Favicon URL:', 'catcheverest' ); ?></th>
                                         <td><?php if ( !empty ( $options[ 'fav_icon' ] ) ) { ?>
                                                 <input class="upload-url" size="65" type="text" name="catcheverest_options[fav_icon]" value="<?php echo esc_url( $options [ 'fav_icon' ] ); ?>" />
                                             <?php } else { ?>
                                                 <input class="upload-url" size="65" type="text" name="catcheverest_options[fav_icon]" value="<?php echo get_template_directory_uri(); ?>/images/favicon.ico" alt="fav" />
                                             <?php }  ?> 
-                                            <input id="st_upload_button" class="st_upload_button button" name="wsl-image-add" type="button" value="<?php esc_attr_e( 'Change Fav Icon','catcheverest' );?>" />
+                                            <input id="st_upload_button" class="st_upload_button button" name="wsl-image-add" type="button" value="<?php esc_attr_e( 'Change Favicon','catcheverest' );?>" />
                                         </td>
                                     </tr>
                                     
@@ -250,7 +250,7 @@ function catcheverest_theme_options_do_page() {
                                     </tr>
                                 </tbody>
                             </table>
-                            <p><?php esc_attr_e( 'Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and Height 144px height, which will support High Resolution Devices like iPad Retina.', 'catcheverest' ); ?></p>
+                            <p><?php esc_attr_e( 'Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and Height 144px, which will support High Resolution Devices like iPad Retina.', 'catcheverest' ); ?></p>
                             <p class="submit"><input type="submit" class="button-primary" value="<?php esc_attr_e( 'Save', 'catcheverest' ); ?>" /></p> 
                         </div><!-- .option-content -->
                     </div><!-- .option-container -->                    
@@ -787,7 +787,7 @@ function catcheverest_theme_options_do_page() {
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td></td><td><?php _e('Note: Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. which will load on Header', 'catcheverest' ); ?></td>
+                                        <td></td><td><?php _e('Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. which will load on Header', 'catcheverest' ); ?></td>
                                     </tr>
                                     <tr>
                                         <th scope="row"><?php _e('Code to display on Footer', 'catcheverest' ); ?></th>
