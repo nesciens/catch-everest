@@ -1,0 +1,1023 @@
+# Copyright (C) 2012 the Catch Themes Team
+# This file is distributed under the  GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Catch Everest\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-29 00:49+0200\n"
+"PO-Revision-Date: 2013-07-01 12:30+0200\n"
+"Last-Translator: Erik Massop <e.massop@hccnet.nl>\n"
+"Language-Team: Catch Themes <support@catchthemes.com>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;esc_attr_e;esc_attr__\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+msgid "% Replies"
+msgstr "% Reacties"
+
+msgid "% Replies;"
+msgstr "% reacties;"
+
+#. translators: 1: date, 2: time
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s om %2$s"
+
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#, php-format
+msgid "%s on Delicious"
+msgstr "%s op Delicious"
+
+#, php-format
+msgid "%s on Dribbble"
+msgstr "%s op Dribbble"
+
+#, php-format
+msgid "%s on Facebook"
+msgstr "%s op Facebook"
+
+#, php-format
+msgid "%s on Flickr"
+msgstr "%s op Flickr"
+
+#, php-format
+msgid "%s on Foursquare"
+msgstr "%s op Foursquare"
+
+#, php-format
+msgid "%s on GitHub"
+msgstr "%s op GitHub"
+
+#, php-format
+msgid "%s on Google+"
+msgstr "%s op Google+"
+
+#, php-format
+msgid "%s on Instagram"
+msgstr "%s op Instagram"
+
+#, php-format
+msgid "%s on Last.fm"
+msgstr "%s op Last.fm"
+
+#, php-format
+msgid "%s on Linkedin"
+msgstr "%s op LinkedIn"
+
+#, php-format
+msgid "%s on MySpace"
+msgstr "%s op MySpace"
+
+#, php-format
+msgid "%s on Pinterest"
+msgstr "%s op Pinterest"
+
+#, php-format
+msgid "%s on RSS"
+msgstr "%s op RSS"
+
+#, php-format
+msgid "%s on Slideshare"
+msgstr "%s op Slideshare"
+
+#, php-format
+msgid "%s on Tumblr"
+msgstr "%s op Tumblr"
+
+#, php-format
+msgid "%s on Twitter"
+msgstr "%s op Twitter"
+
+#, php-format
+msgid "%s on Vimeo"
+msgstr "%s op Vimeo"
+
+#, php-format
+msgid "%s on WordPress"
+msgstr "%s op WordPress"
+
+#, php-format
+msgid "%s on YouTube"
+msgstr "%s op YouTube"
+
+#, php-format
+msgid "%s on deviantART"
+msgstr "%s op deviantART"
+
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr "&larr;"
+
+msgid "&larr; Older Comments"
+msgstr "&larr; Oudere reacties"
+
+msgid "&larr; Previous"
+msgstr "&larr; vorige"
+
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+msgid "(Edit)"
+msgstr "(Bewerk)"
+
+#. translators: used between list items, there is a space after the comma.
+msgid ", "
+msgstr ", "
+
+msgid "--Disabled--"
+msgstr "--Uitgeschakeld--"
+
+msgid "1 Reply"
+msgstr "1 Reactie"
+
+msgid "5 Star Rating"
+msgstr "Geef 5 sterren"
+
+#, php-format
+msgid "<a class=\"button\" href=\"%s\">Click here</a>"
+msgstr "<a class=\"button\" href=\"%s\">Klik hier</a>"
+
+#, php-format
+msgid ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Post a comment\">Post a "
+"comment</a> or leave a trackback: <a class=\"trackback-link\" href=\"%s\" "
+"title=\"Trackback URL for your post\" rel=\"trackback\">Trackback URL</a>."
+msgstr ""
+"<a class=\"comment-link\" href=\"#respond\" title=\"Geef een reactie\">Geef "
+"een reactie</a> of laat een trackback achter: <a class=\"trackback-link\" "
+"href=\"%s\" title=\"Trackback URL voor je bericht\" rel=\"trackback"
+"\">Trackback URL</a>."
+
+#, php-format
+msgid "<span class=\"in-category\">Posted in %1$s</span>"
+msgstr "<span class=\"in-category\">Geplaatst in %1$s</span>"
+
+#, php-format
+msgid "<span class=\"in-tag\">Tagged %1$s</span>"
+msgstr "<span class=\"in-tag\">Getagd met %1$s</span>"
+
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> oudere berichten"
+
+#. translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
+#, php-format
+msgid ""
+"<span class=\"on-date\">Posted on %1$s</span><span class=\"by-author\"> by "
+"%2$s</span>"
+msgstr ""
+"<span class=\"on-date\">Geplaatst op %1$s</span><span class=\"by-author\"> "
+"door %2$s</span>"
+
+#, php-format
+msgid ""
+"<span class=\"on-date\">Posted on %3$s</span><span class=\"in-category\"> "
+"under %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag\">Tagged "
+"%2$s</span><span class=\"sep\"> | </span><span class=\"by-author\"> By %4$s</"
+"span>."
+msgstr ""
+"<span class=\"on-date\">Geplaatst op %3$s</span><span class=\"in-category\"> "
+"onder %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag\">Getagd "
+"met %2$s</span><span class=\"sep\"> | </span><span class=\"by-author\"> Door "
+"%4$s</span>."
+
+#, php-format
+msgid ""
+"<span class=\"on-date\">Posted on %3$s</span><span class=\"in-category\"> "
+"under in %1$s<span><span class=\"sep\"> | </span><span class=\"by-author\"> "
+"By %4$s</span>."
+msgstr ""
+"<span class=\"on-date\">Geplaatst op %3$s</span><span class=\"in-category\"> "
+"onder %1$s<span><span class=\"sep\"> | </span><span class=\"by-author\"> "
+"Door %4$s</span>."
+
+#, php-format
+msgid ""
+"<span class=\"on-date\">Posted on %3$s</span><span class=\"sep\"> | </"
+"span><span class=\"by-author\"> By %4$s</span>."
+msgstr ""
+"<span class=\"on-date\">Geplaatst op %3$s</span><span class=\"sep\"> | </"
+"span><span class=\"by-author\"> Door %4$s</span>."
+
+#, php-format
+msgid "About %s"
+msgstr "Over %s"
+
+msgid "Add Image"
+msgstr "Voeg afbeelding toe"
+
+msgid "Add Page instead of Latest Posts"
+msgstr "Gebruik pagina in plaats van meest recente berichten"
+
+msgid "Add in the Feedburner URL"
+msgstr "Voeg het Feedburner-URL in"
+
+msgid "Add in the Target URL for the content"
+msgstr "Voeg doel-URL in voor de inhoud"
+
+msgid "All Audio Posts"
+msgstr "Alle audioberichten"
+
+msgid "All Chat Posts"
+msgstr "Alle chatberichten"
+
+msgid "All Gallery Posts"
+msgstr "Alle galerijberichten"
+
+msgid "All Image Posts"
+msgstr "Alle afbeeldingsberichten"
+
+msgid "All Link Posts"
+msgstr "Alle linkberichten"
+
+msgid "All Rights Reserved"
+msgstr "Alle rechten voorbehouden"
+
+msgid "All Status Posts"
+msgstr "Alle statusberichten"
+
+msgid "All Video Posts"
+msgstr "Alle videoberichten"
+
+msgid "An optional widget area for your site footer"
+msgstr "Een optioneel widgetgebied voor de footer"
+
+msgid "Archives"
+msgstr "Archieven"
+
+msgid "Audio"
+msgstr "Audio"
+
+#, php-format
+msgid "Author Archives: %s"
+msgstr "Archieven per auteur: %s"
+
+msgid "Background"
+msgstr "Achtergrond"
+
+msgid "Both comments and trackbacks are currently closed."
+msgstr ""
+"Er kunnen geen reacties gegeven worden en ook geen trackbacks worden "
+"achtergelaten."
+
+msgid "CSS Tutorial"
+msgstr "CSS tutorial"
+
+msgid "CSS Tutorial from W3Schools."
+msgstr "CSS tutorial van W3Schools."
+
+msgid "Catch Everest"
+msgstr "Catch Everest"
+
+msgid "Catch Everest Social Widget"
+msgstr "Catch Everest Social Widget"
+
+msgid "Catch Themes"
+msgstr "Catch Themes"
+
+#, php-format
+msgid "Category Archives: %s"
+msgstr "Archieven per categorie: %s"
+
+msgid "Change Favicon"
+msgstr "Favicon wijzigen"
+
+msgid "Change Image"
+msgstr "Wijzig afbeelding"
+
+msgid "Change Web Clip Icon"
+msgstr "Wijzig Web Clip Icon"
+
+msgid "Chat"
+msgstr "Chat"
+
+msgid "Check to Enable"
+msgstr "Vink aan om in te schakelen"
+
+msgid "Check to disable"
+msgstr "Vink aan om uit te schakelen"
+
+msgid "Check to exclude"
+msgstr "Vink aan om uit te sluiten"
+
+msgid "Check to open in new window"
+msgstr "Vink aan om te openen in een nieuw venster"
+
+msgid "Check to reset"
+msgstr "Vink aan om te resetten."
+
+msgid "Click Here To Edit"
+msgstr "Klik hier om te bewerken"
+
+msgid "Click Here to Read"
+msgstr "Klik hier om te lezen"
+
+msgid "Click Here to Set Static Front Page Instead of Latest Posts"
+msgstr ""
+"Klik hier om een statische voorpagina in te stellen in plaats van meeste "
+"recente berichten"
+
+msgid "Code to display on Footer"
+msgstr "Code om te laden in de footer"
+
+msgid "Code to display on Header"
+msgstr "Code om te laden in header"
+
+msgid "Comment navigation"
+msgstr "Reactienavigatie"
+
+#, php-format
+msgid ""
+"Comments are closed, but you can leave a trackback: <a class=\"trackback-link"
+"\" href=\"%s\" title=\"Trackback URL for your post\" rel=\"trackback"
+"\">Trackback URL</a>."
+msgstr ""
+"Er kunnen geen reacties gegeven worden, maar je kan wel een trackback "
+"achterlaten: <a class=\"trackback-link\" href=\"%s\" title=\"Trackback URL "
+"voor je bericht\" rel=\"trackback\">Trackback URL</a>."
+
+msgid "Comments are closed."
+msgstr "Er kunnen geen reacties worden gegeven."
+
+msgid "Content"
+msgstr "Inhoud"
+
+msgid "Content Layout"
+msgstr "Inhoudopmaak"
+
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lees verder <span class=\"meta-nav\">&rarr;</span>"
+
+msgid "Copyright"
+msgstr "Copyright"
+
+msgid "Custom Background. Need to replace or remove background?"
+msgstr ""
+"Aangepaste achtergrond. Moet de achtergrond worden vervangen of verwijderd?"
+
+msgid "Custom CSS"
+msgstr "Aangepaste CSS"
+
+msgid "Custom Header. Need to Add or Remove Logo?"
+msgstr "Aangepaste header. Moet het logo worden toegevoegd of verwijderd?"
+
+#, php-format
+msgid "Daily Archives: %s"
+msgstr "Archieven per dag: %s"
+
+msgid "Default Display Text in Search"
+msgstr "Standaard weergavetekst in zoekveld"
+
+msgid "Default Layout Set in"
+msgstr "Standaardopmaak ingesteld in "
+
+msgid "Delicious"
+msgstr "Delicious"
+
+msgid "Disable"
+msgstr "Uitschakelen"
+
+msgid "Disable Favicon?"
+msgstr "Schakel favicon uit?"
+
+msgid "Disable Header Right Section?"
+msgstr "Rechterdeel van header uitschakelen?"
+
+msgid "Disable Homepage Featured Content?"
+msgstr "Schakel uitgelichte inhoud uit op thuispagina?"
+
+msgid "Disable Homepage Headline?"
+msgstr "Thuispaginakop uitschakelen?"
+
+msgid "Disable Homepage Subheadline?"
+msgstr "Thuispaginasubkop uitschakelen?"
+
+msgid "Disable Responsive Design?"
+msgstr "Responsive Design uitschakelen?"
+
+msgid "Disable Web Clip Icon?"
+msgstr "Web Clip Icon uitschakelen?"
+
+msgid "Donate Now"
+msgstr "Doneer nu"
+
+msgid "Donate to Catch Everest"
+msgstr "Doneer aan Catch Everest"
+
+msgid "Dribbble"
+msgstr "Dribbble"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Enable Latest Posts?"
+msgstr "Meest recente berichten inschakelen?"
+
+msgid "Enable Slider"
+msgstr "Slider inschakelen"
+
+msgid "Enter your custom CSS styles."
+msgstr "Vul aangepaste CSS-opmaak in"
+
+msgid "Entire Site"
+msgstr "Hele site"
+
+msgid "Excerpt / More Tag Settings"
+msgstr "Instellingen van excerpt en more-tag"
+
+msgid "Excerpt length(words)"
+msgstr "Excerptlengte (in woorden)"
+
+msgid "Excerpt/Blog Display"
+msgstr "Excerpt/blog weergeven"
+
+msgid "Exclude Slider post from Homepage posts?"
+msgstr "Sliderberichten niet bij thuispaginaberichten weergeven?"
+
+msgid "Facebook"
+msgstr "Facebook"
+
+msgid "Favicon"
+msgstr "Favicon"
+
+msgid "Favicon URL:"
+msgstr "Favicon-URL:"
+
+#, php-format
+msgid "Featured Content #%s"
+msgstr "Uitgelichte inhoud #%s"
+
+msgid "Featured Post Slider"
+msgstr "Slider"
+
+msgid "Featured Post Slider Options"
+msgstr "Berichten in slider"
+
+msgid "Featured Slider Post #"
+msgstr "Sliderbericht #"
+
+msgid "Featured post"
+msgstr "Uitgelicht bericht"
+
+msgid "Feed Redirect"
+msgstr "Feed redirect"
+
+msgid "Feed Redirect URL"
+msgstr "URL voor feed redirect"
+
+msgid "Flickr"
+msgstr "Flickr"
+
+msgid "Follow @catchthemes"
+msgstr "Volg @catchthemes"
+
+msgid "Follow Catch Themes on Twitter"
+msgstr "Volg Catch Themes op Twitter"
+
+msgid "Footer Area One"
+msgstr "Footergebied Eén"
+
+msgid "Footer Area Three"
+msgstr "Footergebied Drie"
+
+msgid "Footer Area Two"
+msgstr "Footergebied Twee"
+
+msgid "Foursquare"
+msgstr "Foursquare"
+
+msgid "Full Content Display"
+msgstr "Volledige inhoud weergeven"
+
+msgid "Gallery"
+msgstr "Galerij"
+
+msgid "GitHub"
+msgstr "GitHub"
+
+msgid "Google+"
+msgstr "Google+"
+
+msgid "Header Right Section"
+msgstr "Rechterdeel van header"
+
+msgid "Header and Footer Codes"
+msgstr "Code voor header en footer"
+
+msgid "Headline"
+msgstr "Kop"
+
+msgid "Homepage / Frontpage"
+msgstr "Thuispagina / voorpagina"
+
+msgid "Homepage / Frontpage Settings"
+msgstr "Thuispagina / voorpagina"
+
+msgid "Homepage Featured Content Options"
+msgstr "Uitgelichte inhoud op thuispagina"
+
+msgid "Homepage Headline"
+msgstr "Kop op thuispagina"
+
+msgid "Homepage Headline Options"
+msgstr "Kop op thuispagina"
+
+msgid "Homepage Settings"
+msgstr "Thuispagina"
+
+msgid "Homepage Subheadline Headline"
+msgstr "Subkop voor thuispaginakop"
+
+msgid "Homepage posts categories:"
+msgstr "Berichtcategorieën voor thuispagina:"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image"
+msgstr "Afbeelding"
+
+msgid "Instagram"
+msgstr "Instagram"
+
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Er is niets gevonden op deze locatie. Probeer misschien een van onderstaande "
+"links of een zoekopdracht?"
+
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr "We hebben helaas niets weer te geven. Misschien kan zoeken helpen."
+
+msgid "Last.fm"
+msgstr "Last.fm"
+
+msgid "Layout Options"
+msgstr "Opmaakopties"
+
+msgid "Leave a reply"
+msgstr "Geef een reactie"
+
+msgid "Leave empty if you want to remove headline"
+msgstr "Laat leeg om kop te verwijderen"
+
+msgid "Leave empty if you want to remove title"
+msgstr "Laat leeg om titel te verwijderen"
+
+msgid "Left Sidebar"
+msgstr "Sidebar links"
+
+msgid "Left sidebar"
+msgstr "Sidebar links"
+
+msgid "Like Catch Themes on Facebook"
+msgstr "Like Catch Themes op Facebook"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Link URL"
+msgstr "Link-URL"
+
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+msgid "Main Sidebar"
+msgstr "Primaire sidebar"
+
+msgid "Menu"
+msgstr "Menu"
+
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr "Archieven per maand: %s"
+
+msgid "More Tag Text"
+msgstr "Tekst van more-tag"
+
+msgid "Most Used Categories"
+msgstr "Meest gebruikte categorieën"
+
+msgid "MySpace"
+msgstr "MySpace"
+
+msgid "Newer Comments &rarr;"
+msgstr "Nieuwere reacties &rarr;"
+
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "nieuwere berichten <span class=\"meta-nav\">&rarr;</span>"
+
+msgid "Next &rarr;"
+msgstr "volgende &rarr;"
+
+msgid "No Sidebar"
+msgstr "Geen sidebar"
+
+msgid "No sidebar"
+msgstr "Geen sidebar"
+
+msgid ""
+"Note: Here You can put your Post IDs which displays on Homepage as slider."
+msgstr ""
+"NB: Hier kunnen post-IDs worden ingesteld om als slider op de thuispagina te "
+"werken."
+
+msgid ""
+"Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
+"which will load on Header"
+msgstr ""
+"NB: Hier kunnen script van Google, Facebook, Twitter, Add This etc. worden "
+"ingevoerd die laden in de header."
+
+msgid ""
+"Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
+"which will load on footer"
+msgstr ""
+"NB: Hier kunnen script van Google, Facebook, Twitter, Add This etc. worden "
+"ingevoerd die laden in de footer."
+
+msgid ""
+"Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
+"Height 144px, which will support High Resolution Devices like iPad Retina."
+msgstr ""
+"NB: Web Clip Icon voor Appleapparaten. Het aanbevolen formaat is 144px breed "
+"en 144px hoog, voor ondersteuning van apparaten met een hoge resolutie, "
+"zoals de iPad Retina."
+
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+msgid "Number of Featured Content"
+msgstr "Aantal stukken uitgelichte inhoud"
+
+msgid "Number of Slides"
+msgstr "Aantal slides"
+
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Eén reactie op &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s reacties op &ldquo;%2$s&rdquo;"
+
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+"Alleen berichten uit de hier geselecteerde categorieën zullen worden "
+"weergegeven op de voorpagina."
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oeps! Die pagina is niet gevonden."
+
+msgid "Options Saved"
+msgstr "Opties opgeslagen"
+
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+msgid "Pages:"
+msgstr "Pagina's:"
+
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink naar %s"
+
+msgid "Pingback:"
+msgstr "Pingback:"
+
+msgid "Pinterest"
+msgstr "Pinterest"
+
+msgid "Post author"
+msgstr "Berichtauteur"
+
+msgid "Post navigation"
+msgstr "Berichtnavigatie"
+
+msgid "Powered by"
+msgstr "Aangedreven door"
+
+msgid "Preview: "
+msgstr "Voorvertoning: "
+
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-"
+"size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s"
+"\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+"Geplaatst op <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\" pubdate>%2$s</time></span> met grootte <a href=\"%3$s\" title="
+"\"Link naar volledig formaat\">%4$s &times; %5$s</a> in <a href=\"%6$s\" "
+"title=\"Terug naar %7$s\" rel=\"gallery\">%7$s</a>"
+
+msgid "RSS"
+msgstr "RSS"
+
+msgid "Rate us 5 Star on WordPress"
+msgstr "Beoordeel ons met 5 sterren op WordPress"
+
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om je eerste bericht te plaatsen? <a href=\"%1$s\">Begin hier</a>."
+
+msgid "Reply"
+msgstr "Reageer"
+
+msgid "Reset Layout?"
+msgstr "Reset opmaak?"
+
+msgid "Responsive Design"
+msgstr "Responsive Design"
+
+msgid "Right Sidebar"
+msgstr "Sidebar rechts"
+
+msgid "Right sidebar"
+msgstr "Sidebar rechts"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Search"
+msgstr "Zoeken"
+
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+msgid "Search Text Settings"
+msgstr "Zoekveldinstellingen"
+
+msgid "Select Sidebar layout"
+msgstr "Selecteer sidebaropmaak"
+
+msgid "Shows the Widgets at the side of Content"
+msgstr "Geeft de widgets naast de inhoud weer"
+
+msgid "Sidebar Layout Options"
+msgstr "Sidebaropmaakopties"
+
+msgid "Skip to content"
+msgstr "Overslaan naar inhoud"
+
+msgid "Slider Options"
+msgstr "Slider"
+
+msgid "Slideshare"
+msgstr "SlideShare"
+
+msgid "Social Links"
+msgstr "Social Media Links"
+
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, maar niets voldeed aan je zoekopdracht. Probeer het nogmaals met "
+"andere zoektermen."
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Support Forum"
+msgstr "Supportforum"
+
+#, php-format
+msgid "Tag Archives: %s"
+msgstr "Archieven per tag: %s"
+
+msgid "Target. Open Link in New Window?"
+msgstr "Target. Open link in een nieuw venster?"
+
+msgid "The appropriate length for Content is around 10 words."
+msgstr "De juiste lengte voor de inhoud is ongeveer 10 woorden."
+
+msgid "The appropriate length for Headine is around 10 words."
+msgstr "De juiste lengte voor de kop is ongeveer 10 woorden."
+
+msgid "Theme"
+msgstr "Thema"
+
+msgid "Theme Instruction"
+msgstr "Themainstructies"
+
+msgid "Theme Options"
+msgstr "Themaopties"
+
+msgid "Theme Options By"
+msgstr "Themaopties door"
+
+msgid "Theme Settings"
+msgstr "Themainstellingen"
+
+#, php-format
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Deze galerij bevat <a %1$s>één foto</a>."
+msgstr[1] "Deze galerij bevat <a %1$s>%2$s foto's</a>."
+
+msgid "Title"
+msgstr "Titel"
+
+msgid "Title (optional):"
+msgstr "Titel (optioneel):"
+
+msgid ""
+"Trackbacks are closed, but you can <a class=\"comment-link\" href=\"#respond"
+"\" title=\"Post a comment\">post a comment</a>."
+msgstr ""
+"Er kunnen geen trackbacks achtergelaten worden, maar je kan wel <a class="
+"\"comment-link\" href=\"#respond\" title=\"Geef een reactie\">een reactie "
+"geven</a>."
+
+msgid "Transition Delay"
+msgstr "Transitievertraging"
+
+msgid "Transition Effect:"
+msgstr "Transitieeffect"
+
+msgid "Transition Length"
+msgstr "Transitielengte"
+
+#. translators: %1$s: smilie
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Probeer de maandelijkse archieven. %1$s"
+
+msgid "Tumblr"
+msgstr "Tumblr"
+
+msgid "Twitter"
+msgstr "Twitter"
+
+msgid "Upgrade to Catch Everest Pro"
+msgstr "Upgrade naar Catch Everest Pro"
+
+msgid "Upload Logo"
+msgstr "Upload logo"
+
+msgid ""
+"Use this widget to add Social Icons from Social Icons Settings as a widget. "
+msgstr ""
+"Gebruik dit widget om social media iconen van de Social Media Links-"
+"instelling weer te geven als widget."
+
+msgid "Video"
+msgstr "Video"
+
+#, php-format
+msgid "View all posts by %s"
+msgstr "Bekijk alle berichten van %s"
+
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Bekijk alle berichten van %s <span class=\"meta-nav\">&rarr;</span>"
+
+msgid "Vimeo"
+msgstr "Vimeo"
+
+msgid "Web Clip Icon Options"
+msgstr "Web Clip Icon opties"
+
+msgid "Web Clip Icon URL:"
+msgstr "Web Clip Icon URL:"
+
+msgid "Webmaster Tools"
+msgstr "Webmastertools"
+
+msgid "Widgets"
+msgstr "Widgets"
+
+msgid "WordPress"
+msgstr "WordPress"
+
+msgid "Y"
+msgstr "Y"
+
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr "Archieven per jaar: %s"
+
+msgid "You may select multiple categories by holding down the CTRL key."
+msgstr "Meerdere categorieën zijn te selecteren met de CTRL-toets."
+
+msgid "Your comment is awaiting moderation."
+msgstr "De reactie wacht op moderatie."
+
+msgid "Youtube"
+msgstr "YouTube"
+
+msgid "blindX"
+msgstr "blindX"
+
+msgid "blindY"
+msgstr "blindY"
+
+msgid "blindZ"
+msgstr "blindZ"
+
+msgid "cover"
+msgstr "cover"
+
+msgid "deviantART"
+msgstr "deviantART"
+
+msgid "fade"
+msgstr "fade"
+
+msgid "http://catchthemes.com/"
+msgstr "http://catchthemes.com/"
+
+msgid "http://catchthemes.com/donate/"
+msgstr "http://catchthemes.com/donate/"
+
+msgid "http://catchthemes.com/support-forum/forum/catch-everest-public/"
+msgstr "http://catchthemes.com/support-forum/forum/catch-everest-public/"
+
+msgid "http://catchthemes.com/theme-instructions/catch-everest/"
+msgstr "http://catchthemes.com/theme-instructions/catch-everest/"
+
+msgid "http://catchthemes.com/themes/catch-everest-pro/"
+msgstr "http://catchthemes.com/themes/catch-everest-pro/"
+
+msgid "http://wordpress.org/support/view/theme-reviews/catch-everest"
+msgstr "http://wordpress.org/support/view/theme-reviews/catch-everest"
+
+msgid "http://www.w3schools.com/css/default.asp"
+msgstr "http://www.w3schools.com/css/default.asp"
+
+msgid "https://facebook.com/catchthemes/"
+msgstr "https://facebook.com/catchthemes/"
+
+msgid "https://twitter.com/catchthemes/"
+msgstr "https://twitter.com/catchthemes/"
+
+msgid "scrollDown"
+msgstr "scrollDown"
+
+msgid "scrollLeft"
+msgstr "scrollLeft"
+
+msgid "scrollRight"
+msgstr "scrollRight"
+
+msgid "scrollUp"
+msgstr "scrollUp"
+
+msgid "second(s)"
+msgstr "seconde(n)"
+
+msgid "shuffle"
+msgstr "shuffle"
+
+msgid "wipe"
+msgstr "wipe"
+
+#~ msgid "Bing Site Verification ID"
+#~ msgstr "Siteverificatie-ID voor Bing"
+
+#~ msgid "Enter your Bing ID number only"
+#~ msgstr "Voer slechts het ID-nummer voor Bing in"
+
+#~ msgid "Enter your Google ID number only"
+#~ msgstr "Voer slechts het ID-nummer voor Google in"
+
+#~ msgid "Enter your Yahoo ID number only"
+#~ msgstr "Voer slechts het ID-nummer voor Yahoo! in"
+
+#~ msgid "Google Site Verification ID"
+#~ msgstr "Siteverificatie-ID voor Google"
+
+#~ msgid "Site Verification"
+#~ msgstr "Siteverificatie"
+
+#~ msgid "Yahoo Site Verification ID"
+#~ msgstr "Siteverificatie-ID voor Yahoo!"
+
+#~ msgid ""
+#~ "<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
+#~ "span><span class=\"in-tag\">Tagged %2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"in-category\">Geplaatst in %1$s</span><span class=\"sep\"> "
+#~ "| </span><span class=\"in-tag\">Getagd met %2$s</span>"
+
