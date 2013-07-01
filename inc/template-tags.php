@@ -213,7 +213,7 @@ function catcheverest_header_meta() {
 		get_the_author()
 	);
 	
-	// Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
+	// translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 		$utility_text = __( '<span class="on-date">Posted on %1$s</span><span class="by-author"> by %2$s</span>', 'catcheverest' );
 
 	printf(
@@ -235,14 +235,14 @@ if ( ! function_exists( 'catcheverest_footer_meta' ) ) :
  */
 function catcheverest_footer_meta() {
 	
-	// Translators: used between list items, there is a space after the comma.
+	// translators: used between list items, there is a space after the comma.
 	$categories_list = get_the_category_list( __( ', ', 'catcheverest' ) );
 
-	// Translators: used between list items, there is a space after the comma.
+	// translators: used between list items, there is a space after the comma.
 	$tag_list = get_the_tag_list( '', __( ', ', 'catcheverest' ) );
 
 
-	// Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
+	// translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 	if ( $tag_list ) {
 		$utility_text = __( '<span class="in-category">Posted in %1$s</span><span class="sep"> | </span><span class="in-tag">Tagged %2$s</span>', 'catcheverest' );
 	} elseif ( $categories_list ) {
@@ -267,10 +267,10 @@ if ( ! function_exists( 'catcheverest_post_format_meta' ) ) :
  * @since Catch Everest 1.0
  */
 function catcheverest_post_format_meta() {
-	// Translators: used between list items, there is a space after the comma.
+	// translators: used between list items, there is a space after the comma.
 	$categories_list = get_the_category_list( __( ', ', 'catcheverest' ) );
 
-	// Translators: used between list items, there is a space after the comma.
+	// translators: used between list items, there is a space after the comma.
 	$tag_list = get_the_tag_list( '', __( ', ', 'catcheverest' ) );
 
 	$date = sprintf( '<a href="%1$s" title="%2$s" rel="bookmark"><time class="entry-date" datetime="%3$s">%4$s</time></a>',
@@ -286,7 +286,7 @@ function catcheverest_post_format_meta() {
 		get_the_author()
 	);
 
-	// Translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
+	// translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 	if ( $tag_list ) {
 		$utility_text = __( '<span class="on-date">Posted on %3$s</span><span class="in-category"> under %1$s</span><span class="sep"> | </span><span class="in-tag">Tagged %2$s</span><span class="sep"> | </span><span class="by-author"> By %4$s</span>.', 'catcheverest' );
 	} elseif ( $categories_list ) {
