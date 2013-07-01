@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Everest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-10 01:14+0545\n"
+"POT-Creation-Date: 2013-07-28 23:21+0200\n"
 "PO-Revision-Date: 2013-07-10 01:14+0545\n"
 "Last-Translator: Sakin Shrestha <sakin@catchinternet.com>\n"
 "Language-Team: Piotrekkk\n"
@@ -26,6 +26,7 @@ msgstr "% Odpowiedzi"
 msgid "% Replies;"
 msgstr "% Odpowiedzi;"
 
+#. translators: 1: date, 2: time
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s o %2$s"
@@ -131,6 +132,7 @@ msgstr "&rarr;"
 msgid "(Edit)"
 msgstr "(Edytuj)"
 
+#. translators: used between list items, there is a space after the comma.
 msgid ", "
 msgstr ","
 
@@ -159,19 +161,16 @@ msgstr ""
 
 #, php-format
 msgid "<span class=\"in-category\">Posted in %1$s</span>"
-msgstr "<span class=\"in-category\">Opublikowano w %1$s<span>"
+msgstr "<span class=\"in-category\">Opublikowano w %1$s</span>"
 
 #, php-format
-msgid ""
-"<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
-"span><span class=\"in-tag\">Tagged %2$s</span>"
-msgstr ""
-"<span class=\"in-category\">Opublikowano w %1$s</span><span class=\"sep\"> | "
-"</span><span class=\"in-tag\">Otagowano %2$s</span>"
+msgid "<span class=\"in-tag\">Tagged %1$s</span>"
+msgstr "<span class=\"in-tag\">Otagowano %1$s</span>"
 
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Starsze wpisy"
 
+#. translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 #, php-format
 msgid ""
 "<span class=\"on-date\">Posted on %1$s</span><span class=\"by-author\"> by "
@@ -185,12 +184,12 @@ msgid ""
 "<span class=\"on-date\">Posted on %3$s</span><span class=\"in-category\"> "
 "under %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag\">Tagged "
 "%2$s</span><span class=\"sep\"> | </span><span class=\"by-author\"> By %4$s</"
-"span>"
+"span>."
 msgstr ""
 "<span class=\"on-date\">Opublikowano w %3$s</span><span class=\"in-category"
 "\"> pod %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag"
 "\">Otagowano %2$s</span><span class=\"sep\"> | </span><span class=\"by-author"
-"\"> Autor: %4$s</span>"
+"\"> Autor: %4$s</span>."
 
 #, php-format
 msgid ""
@@ -288,7 +287,7 @@ msgstr "Catch Themes"
 msgid "Category Archives: %s"
 msgstr "Archiwum kategorii: %s"
 
-msgid "Change Fav Icon"
+msgid "Change Favicon"
 msgstr "Zmień favikonę"
 
 msgid "Change Image"
@@ -406,10 +405,10 @@ msgid "Disable Web Clip Icon?"
 msgstr "Wyłączyć Web Clip Icon?"
 
 msgid "Donate Now"
-msgstr "Donate Now"
+msgstr ""
 
 msgid "Donate to Catch Everest"
-msgstr "Donate to Catch Everest"
+msgstr ""
 
 msgid "Dribbble"
 msgstr "Dribbble"
@@ -444,11 +443,11 @@ msgstr "Nie duplikuj wpisów z pokazu slajdów na stronie głównej?"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Fav Icon URL:"
-msgstr "Adres favikony:"
-
 msgid "Favicon"
 msgstr "Favikona"
+
+msgid "Favicon URL:"
+msgstr "Adres favikony:"
 
 #, php-format
 msgid "Featured Content #%s"
@@ -474,6 +473,10 @@ msgstr "Adres przekierowania kanału wpisów"
 
 msgid "Flickr"
 msgstr "Flickr"
+
+#, fuzzy
+msgid "Follow @catchthemes"
+msgstr "Obserwuj Catch Themes na Twitterze"
 
 msgid "Follow Catch Themes on Twitter"
 msgstr "Obserwuj Catch Themes na Twitterze"
@@ -632,26 +635,22 @@ msgstr ""
 
 msgid ""
 "Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
+"which will load on Header"
+msgstr ""
+"Rada: Tutaj możesz wpisać kod skryptu od Google, Facebooka, itp. który będzie "
+"załadowany w nagłówku"
+
+msgid ""
+"Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
 "which will load on footer"
 msgstr ""
 "Rada: Tutaj możesz wpisać kod skryptu od Google, Facebooka, Add This itp. "
 "który będzie załadowany w stopce"
 
 msgid ""
-"Note: Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-"etc. which will load on Header"
-msgstr ""
-"Rada: Tutaj możesz wpisać kod skryptu od Google, Facebooka, itp. który będzie "
-"załadowany w nagłówku"
-
-msgid ""
 "Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
+"Height 144px, which will support High Resolution Devices like iPad Retina."
 msgstr ""
-"Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
 
 msgid "Nothing Found"
 msgstr "Nic nie znaleziono"
@@ -843,7 +842,7 @@ msgid ""
 "\" title=\"Post a comment\">post a comment</a>."
 msgstr ""
 "Trackbacki są wyłączone, ale możesz <a class=\"comment-link\" href=\"#respond"
-"\" title=\"Zostaw komentarz>zostawić komentarz/a>."
+"\" title=\"Zostaw komentarz\">zostawić komentarz</a>."
 
 msgid "Transition Delay"
 msgstr "Opóźnienie przejścia"
@@ -854,6 +853,7 @@ msgstr "Efekt przejścia:"
 msgid "Transition Length"
 msgstr "Długość przejścia"
 
+#. translators: %1$s: smilie
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Spróbuj zajrzeć do archiwum miesięcy. %1$s"
@@ -956,23 +956,17 @@ msgstr "http://catchthemes.com/theme-instructions/catch-everest/"
 msgid "http://catchthemes.com/themes/catch-everest-pro/"
 msgstr "http://catchthemes.com/themes/catch-everest-pro/"
 
-msgid "http://facebook.com/catchthemes"
-msgstr "http://facebook.com/catchthemes"
-
 msgid "http://wordpress.org/support/view/theme-reviews/catch-everest"
 msgstr "http://wordpress.org/support/view/theme-reviews/catch-everest"
 
 msgid "http://www.w3schools.com/css/default.asp"
 msgstr "http://www.w3schools.com/css/default.asp"
 
-msgid "https://twitter.com/catchthemes"
-msgstr "https://twitter.com/catchthemes"
+msgid "https://facebook.com/catchthemes/"
+msgstr "https://facebook.com/catchthemes/"
 
 msgid "https://twitter.com/catchthemes/"
 msgstr "https://twitter.com/catchthemes/"
-
-msgid "https://www.facebook.com/catchthemes/"
-msgstr "https://www.facebook.com/catchthemes/"
 
 msgid "scrollDown"
 msgstr "scrollDown"
@@ -1015,3 +1009,10 @@ msgstr "wipe"
 
 #~ msgid "Yahoo Site Verification ID"
 #~ msgstr "Kod weryfikacyjny Yahoo"
+
+#~ msgid ""
+#~ "<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
+#~ "span><span class=\"in-tag\">Tagged %2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"in-category\">Opublikowano w %1$s</span><span class=\"sep\"> "
+#~ "| </span><span class=\"in-tag\">Otagowano %2$s</span>"

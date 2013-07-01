@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Everest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-10 01:14+0545\n"
+"POT-Creation-Date: 2013-07-28 23:21+0200\n"
 "PO-Revision-Date: 2013-07-10 01:14+0545\n"
 "Last-Translator: Sakin Shrestha <sakin@catchinternet.com>\n"
 "Language-Team: Ruben Ramos Fernandez <support@catchthemes.com>\n"
@@ -25,6 +25,7 @@ msgstr "% Respuestas"
 msgid "% Replies;"
 msgstr "% Respuestas;"
 
+#. translators: 1: date, 2: time
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s en %2$s"
@@ -130,6 +131,7 @@ msgstr "&rarr;"
 msgid "(Edit)"
 msgstr "(Editar)"
 
+#. translators: used between list items, there is a space after the comma.
 msgid ", "
 msgstr ", "
 
@@ -159,19 +161,16 @@ msgstr ""
 
 #, php-format
 msgid "<span class=\"in-category\">Posted in %1$s</span>"
-msgstr "<span class=\"in-category\">Publicado en %1$s<span>"
+msgstr "<span class=\"in-category\">Publicado en %1$s</span>"
 
 #, php-format
-msgid ""
-"<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
-"span><span class=\"in-tag\">Tagged %2$s</span>"
-msgstr ""
-"<span class=\"in-category\">Publicado en %1$s</span><span class=\"sep\"> | </"
-"span><span class=\"in-tag\">Etiquetado %2$s</span>"
+msgid "<span class=\"in-tag\">Tagged %1$s</span>"
+msgstr "<span class=\"in-tag\">Etiquetado %1$s</span>"
 
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> Posts antiguos"
 
+#. translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 #, php-format
 msgid ""
 "<span class=\"on-date\">Posted on %1$s</span><span class=\"by-author\"> by "
@@ -185,12 +184,12 @@ msgid ""
 "<span class=\"on-date\">Posted on %3$s</span><span class=\"in-category\"> "
 "under %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag\">Tagged "
 "%2$s</span><span class=\"sep\"> | </span><span class=\"by-author\"> By %4$s</"
-"span>"
+"span>."
 msgstr ""
 "<span class=\"on-date\">Enviado el %3$s</span><span class=\"in-category\"> "
 "bajo%1$s</span><span class=\"sep\"> | </span><span class=\"in-tag"
 "\">Etiquetado %2$s</span><span class=\"sep\"> | </span><span class=\"by-author"
-"\"> por%4$s</span>"
+"\"> por%4$s</span>."
 
 #, php-format
 msgid ""
@@ -288,8 +287,8 @@ msgstr "Catch Themes"
 msgid "Category Archives: %s"
 msgstr "Archivos de la categoría:%s"
 
-msgid "Change Fav Icon"
-msgstr "Cambiar Fav Icon"
+msgid "Change Favicon"
+msgstr "Cambiar Favicon"
 
 msgid "Change Image"
 msgstr "Cambiar Imagen"
@@ -406,10 +405,10 @@ msgid "Disable Web Clip Icon?"
 msgstr "Deshabilitar Web Clip Icon?"
 
 msgid "Donate Now"
-msgstr "Donate Now"
+msgstr ""
 
 msgid "Donate to Catch Everest"
-msgstr "Donate to Catch Everest"
+msgstr ""
 
 msgid "Dribbble"
 msgstr "Dribbble"
@@ -444,11 +443,11 @@ msgstr "Excluir los Post del Slider de los Post del Homepage?"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Fav Icon URL:"
-msgstr "Fav Icon URL:"
-
 msgid "Favicon"
 msgstr "Favicon"
+
+msgid "Favicon URL:"
+msgstr "Favicon URL:"
 
 #, php-format
 msgid "Featured Content #%s"
@@ -474,6 +473,10 @@ msgstr "Redireccion Feed URL"
 
 msgid "Flickr"
 msgstr "Flickr"
+
+#, fuzzy
+msgid "Follow @catchthemes"
+msgstr "Seguir Catch Themes en Twitter"
 
 msgid "Follow Catch Themes on Twitter"
 msgstr "Seguir Catch Themes en Twitter"
@@ -633,26 +636,22 @@ msgstr ""
 
 msgid ""
 "Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
+"which will load on Header"
+msgstr ""
+"Nota: Aquí puedes poner scripts de Google, Facebook, Twitter, Add This, "
+"etc...  que se cargaran en el Header"
+
+msgid ""
+"Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
 "which will load on footer"
 msgstr ""
 "Nota: Aquí puedes poner scripts de Google, Facebook, Twitter, Add This, "
 "etc...  que se cargaran en el Footer"
 
 msgid ""
-"Note: Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-"etc. which will load on Header"
-msgstr ""
-"Nota: Aquí puedes poner scripts de Google, Facebook, Twitter, Add This, "
-"etc...  que se cargaran en el Header"
-
-msgid ""
 "Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
+"Height 144px, which will support High Resolution Devices like iPad Retina."
 msgstr ""
-"Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
 
 msgid "Nothing Found"
 msgstr "Nada encontrado"
@@ -855,6 +854,7 @@ msgstr "Efecto de transicion:"
 msgid "Transition Length"
 msgstr "Longitud de la transicion"
 
+#. translators: %1$s: smilie
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "Trate de buscar en los archivos mensuales. %1$s"
@@ -866,7 +866,7 @@ msgid "Twitter"
 msgstr "Twitter"
 
 msgid "Upgrade to Catch Everest Pro"
-msgstr "Upgrade to Catch Everest Pro"
+msgstr ""
 
 msgid "Upload Logo"
 msgstr "Subir Logo"
@@ -953,23 +953,17 @@ msgstr "http://catchthemes.com/theme-instructions/catch-everest/"
 msgid "http://catchthemes.com/themes/catch-everest-pro/"
 msgstr "http://catchthemes.com/themes/catch-everest-pro/"
 
-msgid "http://facebook.com/catchthemes"
-msgstr "http://facebook.com/catchthemes"
-
 msgid "http://wordpress.org/support/view/theme-reviews/catch-everest"
 msgstr "http://wordpress.org/support/view/theme-reviews/catch-everest"
 
 msgid "http://www.w3schools.com/css/default.asp"
 msgstr "http://www.w3schools.com/css/default.asp"
 
-msgid "https://twitter.com/catchthemes"
-msgstr "https://twitter.com/catchthemes"
+msgid "https://facebook.com/catchthemes/"
+msgstr "https://facebook.com/catchthemes/"
 
 msgid "https://twitter.com/catchthemes/"
 msgstr "https://twitter.com/catchthemes/"
-
-msgid "https://www.facebook.com/catchthemes/"
-msgstr "https://www.facebook.com/catchthemes/"
 
 msgid "scrollDown"
 msgstr "scrollDown"
@@ -1012,3 +1006,10 @@ msgstr "wipe"
 
 #~ msgid "Yahoo Site Verification ID"
 #~ msgstr "Yahoo Site Verification ID"
+
+#~ msgid ""
+#~ "<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
+#~ "span><span class=\"in-tag\">Tagged %2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"in-category\">Publicado en %1$s</span><span class=\"sep\"> | "
+#~ "</span><span class=\"in-tag\">Etiquetado %2$s</span>"

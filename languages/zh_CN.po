@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Catch Everest\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2013-07-10 01:14+0545\n"
+"POT-Creation-Date: 2013-07-28 23:21+0200\n"
 "PO-Revision-Date: 2013-07-10 01:14+0545\n"
 "Last-Translator: Sakin Shrestha <sakin@catchinternet.com>\n"
 "Language-Team: \n"
@@ -24,6 +24,7 @@ msgstr "% 条评论"
 msgid "% Replies;"
 msgstr "% 条评论"
 
+#. translators: 1: date, 2: time
 #, php-format
 msgid "%1$s at %2$s"
 msgstr "%1$s 在 %2$s"
@@ -129,6 +130,7 @@ msgstr "&rarr;"
 msgid "(Edit)"
 msgstr "(编辑)"
 
+#. translators: used between list items, there is a space after the comma.
 msgid ", "
 msgstr ","
 
@@ -157,19 +159,16 @@ msgstr ""
 
 #, php-format
 msgid "<span class=\"in-category\">Posted in %1$s</span>"
-msgstr "<span class=\"in-category\">发表在 %1$s<span>"
+msgstr "<span class=\"in-category\">发表在 %1$s</span>"
 
 #, php-format
-msgid ""
-"<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
-"span><span class=\"in-tag\">Tagged %2$s</span>"
-msgstr ""
-"<span class=\"in-category\">发表在 %1$s</span><span class=\"sep\"> | </"
-"span><span class=\"in-tag\">标签： %2$s</span>"
+msgid "<span class=\"in-tag\">Tagged %1$s</span>"
+msgstr "<span class=\"in-tag\">标签： %1$s</span>"
 
 msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
 msgstr "<span class=\"meta-nav\">&larr;</span> 早些的文章"
 
+#. translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 #, php-format
 msgid ""
 "<span class=\"on-date\">Posted on %1$s</span><span class=\"by-author\"> by "
@@ -183,12 +182,12 @@ msgid ""
 "<span class=\"on-date\">Posted on %3$s</span><span class=\"in-category\"> "
 "under %1$s</span><span class=\"sep\"> | </span><span class=\"in-tag\">Tagged "
 "%2$s</span><span class=\"sep\"> | </span><span class=\"by-author\"> By %4$s</"
-"span>"
+"span>."
 msgstr ""
 "<span class=\"on-date\">发表在 %3$s</span><span class=\"in-category\">  %1$s "
 "下面</span><span class=\"sep\"> | </span><span class=\"in-tag\">标签： %2$s</"
 "span><span class=\"sep\"> | </span><span class=\"by-author\"> 作者： %4$s</"
-"span>"
+"span>."
 
 #, php-format
 msgid ""
@@ -219,7 +218,7 @@ msgid "Add Page instead of Latest Posts"
 msgstr "添加替代最近文章的页面"
 
 msgid "Add in the Feedburner URL"
-msgstr "Add in the Feedburner URL"
+msgstr ""
 
 msgid "Add in the Target URL for the content"
 msgstr "给内容添加目标地址"
@@ -286,14 +285,14 @@ msgstr "Catch Themes"
 msgid "Category Archives: %s"
 msgstr "分类： %s"
 
-msgid "Change Fav Icon"
-msgstr "Change Fav Icon"
+msgid "Change Favicon"
+msgstr ""
 
 msgid "Change Image"
 msgstr "Change Image"
 
 msgid "Change Web Clip Icon"
-msgstr "Change Web Clip Icon"
+msgstr ""
 
 msgid "Chat"
 msgstr "聊天"
@@ -399,13 +398,13 @@ msgid "Disable Responsive Design?"
 msgstr "禁用自适应？"
 
 msgid "Disable Web Clip Icon?"
-msgstr "Disable Web Clip Icon?"
+msgstr ""
 
 msgid "Donate Now"
-msgstr "Donate Now"
+msgstr ""
 
 msgid "Donate to Catch Everest"
-msgstr "Donate to Catch Everest"
+msgstr ""
 
 msgid "Dribbble"
 msgstr "Dribbble"
@@ -440,11 +439,11 @@ msgstr "把精选图片秀从主页去掉？"
 msgid "Facebook"
 msgstr "Facebook"
 
-msgid "Fav Icon URL:"
-msgstr "站点图标地址："
-
 msgid "Favicon"
 msgstr "站点图标"
+
+msgid "Favicon URL:"
+msgstr "站点图标地址："
 
 #, php-format
 msgid "Featured Content #%s"
@@ -471,8 +470,11 @@ msgstr "Feed重定向地址"
 msgid "Flickr"
 msgstr "Flickr"
 
+msgid "Follow @catchthemes"
+msgstr ""
+
 msgid "Follow Catch Themes on Twitter"
-msgstr "Follow Catch Themes on Twitter"
+msgstr ""
 
 msgid "Footer Area One"
 msgstr "页面底部1"
@@ -572,7 +574,7 @@ msgid "Left sidebar"
 msgstr "左边栏"
 
 msgid "Like Catch Themes on Facebook"
-msgstr "Like Catch Themes on Facebook"
+msgstr ""
 
 msgid "Link"
 msgstr "链接"
@@ -623,26 +625,20 @@ msgstr "你可以把主页显示的文章id号们，作为图片秀来源。"
 
 msgid ""
 "Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
+"which will load on Header"
+msgstr ""
+
+msgid ""
+"Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
 "which will load on footer"
 msgstr ""
 "Note: Here you can put scripts from Google, Facebook, Twitter, Add This etc. "
 "which will load on footer"
 
 msgid ""
-"Note: Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-"etc. which will load on Header"
-msgstr ""
-"Note: Note: Here you can put scripts from Google, Facebook, Twitter, Add This "
-"etc. which will load on Header"
-
-msgid ""
 "Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
+"Height 144px, which will support High Resolution Devices like iPad Retina."
 msgstr ""
-"Note: Web Clip Icon for Apple devices. Recommended Size - Width 144px and "
-"Height 144px height, which will support High Resolution Devices like iPad "
-"Retina."
 
 msgid "Nothing Found"
 msgstr "啥都没找到"
@@ -718,7 +714,7 @@ msgid "RSS"
 msgstr "RSS"
 
 msgid "Rate us 5 Star on WordPress"
-msgstr "Rate us 5 Star on WordPress"
+msgstr ""
 
 #, php-format
 msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
@@ -807,7 +803,7 @@ msgid "Theme Options"
 msgstr "主题设置"
 
 msgid "Theme Options By"
-msgstr "Theme Options By"
+msgstr ""
 
 msgid "Theme Settings"
 msgstr "主题选项"
@@ -840,6 +836,7 @@ msgstr "变换效果："
 msgid "Transition Length"
 msgstr "渐变时长"
 
+#. translators: %1$s: smilie
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr "试试找找每月存档。%1$s"
@@ -851,7 +848,7 @@ msgid "Twitter"
 msgstr "Twitter"
 
 msgid "Upgrade to Catch Everest Pro"
-msgstr "Upgrade to Catch Everest Pro"
+msgstr ""
 
 msgid "Upload Logo"
 msgstr "上传logo"
@@ -859,7 +856,6 @@ msgstr "上传logo"
 msgid ""
 "Use this widget to add Social Icons from Social Icons Settings as a widget. "
 msgstr ""
-"Use this widget to add Social Icons from Social Icons Settings as a widget. "
 
 msgid "Video"
 msgstr "视频"
@@ -876,10 +872,10 @@ msgid "Vimeo"
 msgstr "Vimeo"
 
 msgid "Web Clip Icon Options"
-msgstr "Web Clip Icon Options"
+msgstr ""
 
 msgid "Web Clip Icon URL:"
-msgstr "Web Clip Icon URL:"
+msgstr ""
 
 msgid "Webmaster Tools"
 msgstr "站长工具"
@@ -939,23 +935,17 @@ msgstr "http://catchthemes.com/theme-instructions/catch-everest/"
 msgid "http://catchthemes.com/themes/catch-everest-pro/"
 msgstr "http://catchthemes.com/themes/catch-everest-pro/"
 
-msgid "http://facebook.com/catchthemes"
-msgstr "http://facebook.com/catchthemes"
-
 msgid "http://wordpress.org/support/view/theme-reviews/catch-everest"
 msgstr "http://wordpress.org/support/view/theme-reviews/catch-everest"
 
 msgid "http://www.w3schools.com/css/default.asp"
 msgstr "http://www.w3schools.com/css/default.asp"
 
-msgid "https://twitter.com/catchthemes"
-msgstr "https://twitter.com/catchthemes"
+msgid "https://facebook.com/catchthemes/"
+msgstr "https://facebook.com/catchthemes/"
 
 msgid "https://twitter.com/catchthemes/"
 msgstr "https://twitter.com/catchthemes/"
-
-msgid "https://www.facebook.com/catchthemes/"
-msgstr "https://www.facebook.com/catchthemes/"
 
 msgid "scrollDown"
 msgstr "往下滑"
@@ -998,3 +988,10 @@ msgstr "滑入"
 
 #~ msgid "Yahoo Site Verification ID"
 #~ msgstr "Yahoo Site Verification ID"
+
+#~ msgid ""
+#~ "<span class=\"in-category\">Posted in %1$s</span><span class=\"sep\"> | </"
+#~ "span><span class=\"in-tag\">Tagged %2$s</span>"
+#~ msgstr ""
+#~ "<span class=\"in-category\">发表在 %1$s</span><span class=\"sep\"> | </"
+#~ "span><span class=\"in-tag\">标签： %2$s</span>"
