@@ -234,28 +234,21 @@ if ( ! function_exists( 'catcheverest_footer_meta' ) ) :
  * @since Catch Everest 1.0
  */
 function catcheverest_footer_meta() {
-	
+	$parts = array();
+
 	// translators: used between list items, there is a space after the comma.
 	$categories_list = get_the_category_list( __( ', ', 'catcheverest' ) );
+	if ( $categories_list ) {
+		$parts[] = sprintf( __( '<span class="in-category">Posted in %1$s</span>', 'catcheverest' ), $categories_list );
+	}
 
 	// translators: used between list items, there is a space after the comma.
 	$tag_list = get_the_tag_list( '', __( ', ', 'catcheverest' ) );
-
-
-	// translators: 1 is category, 2 is tag, 3 is the date and 4 is the author's name.
 	if ( $tag_list ) {
-		$utility_text = __( '<span class="in-category">Posted in %1$s</span><span class="sep"> | </span><span class="in-tag">Tagged %2$s</span>', 'catcheverest' );
-	} elseif ( $categories_list ) {
-		$utility_text = __( '<span class="in-category">Posted in %1$s</span>', 'catcheverest' );
-	} else {
-		$utility_text = "";
-	} 
-	
-	printf(
-		$utility_text,
-		$categories_list,
-		$tag_list
-	);
+		$parts[] = sprintf( __( '<span class="in-tag">Tagged %1$s</span>', 'catcheverest' ), $tag_list );
+	}
+
+	echo implode( '<span class="sep"> | </span>', $parts);
 }
 endif;
 
