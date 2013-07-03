@@ -33,15 +33,17 @@ p,
 	margin-bottom: 40px;
 }
 #header-right .widget,
-.entry-header,
 article.format-aside .entry-title,
 .comments-area article header {
 	margin-bottom: 30px;
 }
-.page .entry-header,
+.entry-header,
 .widget-title,
 #header-right .widget.widget_catcheverest_social_widget, {
 	margin-bottom: 20px;
+}
+.entry-header .entry-meta {
+	margin-bottom: 30px;
 }
 #featured-post .entry-header {
 	margin-bottom: 0;
@@ -125,15 +127,17 @@ p,
 	margin-bottom: 20px;
 }
 #header-right .widget,
-.entry-header,
 article.format-aside .entry-title,
 .comments-area article header {
 	margin-bottom: 20px;
 }
-.page .entry-header,
+.entry-header,
 .widget-title,
 #header-right .widget.widget_catcheverest_social_widget {
 	margin-bottom: 10px;
+}
+.entry-header .entry-meta {
+	margin-bottom: 20px;
 }
 .container {
 	padding: 0 30px;
