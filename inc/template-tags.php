@@ -192,6 +192,17 @@ endif;
 
 if ( ! function_exists( 'catcheverest_header_meta' ) ) :
 /**
+ * Returns whether catcheverest_header_meta() should be called.
+ *
+ * Create your own catcheverest_has_header_meta() to override in a child theme.
+ */
+function catcheverest_has_header_meta() {
+	return 'post' == get_post_type();
+}
+endif;
+
+if ( ! function_exists( 'catcheverest_header_meta' ) ) :
+/**
  * Prints HTML with meta information for the normal post header: date and author
  *
  * Create your own catcheverest_header_meta() to override in a child theme.
